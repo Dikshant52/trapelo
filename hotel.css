@@ -1,0 +1,484 @@
+@import url(./footer.css);
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  .navicon-back{
+    display: flex;
+  }
+  .navicon-back .domain {
+    height: 80px;
+    width: 200px;
+    /* margin-top: top 15px; */
+    /* border: 2px solid red;  */
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    /* justify-content:space-around; */
+  }
+  
+  .navicon-back .domain > h1 {
+    font-size: xx-large;
+    /* border:2px solid rgb(21, 21, 44); */
+    color: aliceblue;
+    background-color: rgb(18, 18, 53);
+    border-radius: 10px 10px;
+    border-color: none;
+    /* height: 60px;
+    width: 40px; */
+    padding: auto;
+  }
+  .navicon-back .domain > h5 {
+    font-size: x-large;
+    width: 100px;
+    min-height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    border: 2px solid rgb(70, 70, 167);
+    color: rgb(196, 44, 17);
+    background-color: rgb(65, 65, 184);
+    border-radius: 10px 10px;
+    padding: auto;
+  }
+
+  .navicon-back{
+    background-color: rgb(91, 177, 247);
+    
+  }
+  .navicon{
+    border: 2px solid rgb(243, 239, 239);
+    background-color: rgb(228, 237, 255);
+      height: 90px;
+      width: 1013px;
+      margin-top: 0px;
+      margin-left: 440px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  /* Flights */
+  .navicon .flights{
+    height:90px;
+    width: 92px;
+    /* border:2px solid red;  */
+    color: rgb(77, 77, 228);
+    font-size: x-large;
+  }
+  .navicon .flights i{
+    font-size: xx-large;
+    color: rgb(131, 131, 223);
+   padding-top: 14px;
+   padding-left: 24px;
+   box-sizing: border-box;
+   font-weight: bolder;
+  }
+  .navicon .flights h6{
+    text-align: center;
+    font-size: x-large;
+  }
+  .navicon .flights h6:hover{
+    text-decoration: underline;
+    color: rgb(35, 186, 35);
+  }
+  .navicon .flights i:hover{
+    color: rgb(35, 186, 35);
+  }
+
+  /* hotels */
+  .navicon .hotels{
+    height:90px;
+    width: 92px;
+    /* border:2px solid red; */
+    color: rgb(77, 77, 228);
+  }
+  .navicon .hotels .hotel{
+    text-decoration: none;
+    color: rgb(77, 77, 228);
+  }
+  .navicon .hotels i{
+    font-size: xx-large;
+    color: rgb(131, 131, 223);
+   padding-top: 14px;
+   padding-left: 24px;
+   box-sizing: border-box;
+   font-weight: bolder;
+  }
+  .navicon .hotels h6{
+    text-align: center;
+    font-size: x-large;
+  }
+  .navicon .hotels h6:hover{
+    text-decoration: underline;
+    color: rgb(35, 186, 35);
+  }
+  .navicon .hotels i:hover{
+    color: rgb(35, 186, 35);
+  }
+  /* packages */
+  .navicon .packages{
+    height:90px;
+    width: 92px;
+    /* border:2px solid red; */
+    color: rgb(77, 77, 228);
+  }
+  .navicon .packages i{
+    font-size: xx-large;
+    color: rgb(131, 131, 223);
+   padding-top: 14px;
+   padding-left: 24px;
+   box-sizing: border-box;
+   font-weight: bolder;
+  }
+  .navicon .packages h6{
+    text-align: center;
+    font-size: x-large;
+  }
+  .navicon .packages h6:hover{
+    text-decoration: underline;
+    color: rgb(35, 186, 35);
+  }
+  .navicon .packages i:hover{
+    color: rgb(35, 186, 35);
+  } 
+  /* cabs */
+.navicon .cabs{
+    height:90px;
+    width: 92px;
+    /* border:2px solid red; */
+    color: rgb(77, 77, 228);
+  }
+  .navicon .cabs i{
+    font-size: xx-large;
+    color: rgb(131, 131, 223);
+   padding-top: 14px;
+   padding-left: 24px;
+   box-sizing: border-box;
+   font-weight: bolder;
+  }
+  .navicon .cabs h6{
+    text-align: center;
+    font-size: x-large;
+  }
+  .navicon .cabs h6:hover{
+    text-decoration: underline;
+    color: rgb(35, 186, 35);
+  }
+  .navicon .cabs i:hover{
+    color: rgb(35, 186, 35);
+  }
+  
+  
+  /* train */
+  .navicon .train{
+    height:90px;
+    width: 92px;
+    /* border:2px solid red; */
+    color: rgb(77, 77, 228);
+  }
+  .navicon .train i{
+    font-size: xx-large;
+    color: rgb(131, 131, 223);
+   padding-top: 14px;
+   padding-left: 24px;
+   box-sizing: border-box;
+   font-weight: bolder;
+  }
+  .navicon .train h6{
+    text-align: center;
+    font-size: x-large;
+  }
+  .navicon .train h6:hover{
+    text-decoration: underline;
+    color: rgb(35, 186, 35);
+  }
+  .navicon .train i:hover{
+    color: rgb(35, 186, 35);
+  }
+  /* bus */
+  .navicon .bus{
+    height:90px;
+    width: 92px;
+    /* border:2px solid red; */
+    color: rgb(77, 77, 228);
+  }
+  .navicon .bus i{
+    font-size: xx-large;
+    color: rgb(131, 131, 223);
+   padding-top: 14px;
+   padding-left: 24px;
+   box-sizing: border-box;
+   font-weight: bolder;
+  }
+  .navicon .bus h6{
+    text-align: center;
+    font-size: x-large;
+  }
+  .navicon .bus h6:hover{
+    text-decoration: underline;
+    color: rgb(35, 186, 35);
+  }
+  .navicon .bus i:hover{
+    color: rgb(35, 186, 35);
+  }
+  
+  /* payment */
+  .navicon .payment{
+    height:90px;
+    width: 92px;
+    /* border:2px solid red; */
+    color: rgb(77, 77, 228);
+  }
+  .navicon .payment i{
+    font-size: xx-large;
+    color: rgb(131, 131, 223);
+   padding-top: 14px;
+   padding-left: 24px;
+   box-sizing: border-box;
+   font-weight: bolder;
+  }
+  .navicon .payment h6{
+    text-align: center;
+    font-size: x-large;
+  }
+  .navicon .payment h6:hover{
+    text-decoration: underline;
+    color: rgb(35, 186, 35);
+  }
+  .navicon .payment i:hover{
+    color: rgb(35, 186, 35);
+  }
+  /* feedback */
+  .navicon .feedback{
+    height:90px;
+    width: 92px;
+    /* border:2px solid red; */
+    color: rgb(77, 77, 228);
+  }
+  .navicon .feedback i{
+    font-size: xx-large;
+    color: rgb(131, 131, 223);
+   padding-top: 14px;
+   padding-left: 24px;
+   box-sizing: border-box;
+   font-weight: bolder;
+  }
+  .navicon .feedback h6{
+    text-align: center;
+    font-size: x-large;
+  }
+  .navicon .feedback h6:hover{
+    text-decoration: underline;
+    color: rgb(35, 186, 35);
+  }
+  .navicon .feedback i:hover{
+    color: rgb(35, 186, 35);
+  }
+  /* reviews */
+  .navicon .reviews{
+    height:90px;
+    width: 92px;
+    /* border:2px solid red; */
+    color: rgb(77, 77, 228);
+  }
+  .navicon .reviews i{
+    font-size: xx-large;
+    color: rgb(131, 131, 223);
+   padding-top: 14px;
+   padding-left: 24px;
+   box-sizing: border-box;
+   font-weight: bolder;
+  }
+  .navicon .reviews h6{
+    text-align: center;
+    font-size: x-large;
+  }
+  .navicon .reviews h6:hover{
+    text-decoration: underline;
+    color: rgb(35, 186, 35);
+  }
+  .navicon .reviews i:hover{
+    color: rgb(35, 186, 35);
+  }
+  /* activites */
+  .navicon .activites{
+    height:90px;
+    width: 92px;
+    /* border:2px solid red; */
+    color: rgb(77, 77, 228);
+  }
+  .navicon .activites i{
+    font-size: xx-large;
+    color: rgb(131, 131, 223);
+   padding-top: 14px;
+   padding-left: 24px;
+   box-sizing: border-box;
+   font-weight: bolder;
+  }
+  .navicon .activites h6{
+    text-align: center;
+    font-size: x-large;
+  }
+  .navicon .activites h6:hover{
+    text-decoration: underline;
+    color: rgb(35, 186, 35);
+  }
+  .navicon .activites i:hover{
+    color: rgb(35, 186, 35);
+  }
+  
+
+
+/* Booking section */
+.bookbar{
+  /* border: 2px solid blue; */
+  height: 400px;
+  background: linear-gradient(rgb(14, 14, 38),rgb(40, 40, 103),
+  rgb(58, 58, 155),rgb(51, 51, 120));
+  
+}
+.booking{
+  display: flex;
+}
+.booking .loc{
+  border: 2px solid #857678; 
+  background-color: aliceblue;
+  color: black;
+  font: x-large;
+  height: 130px;
+  width: 500px;
+  margin-top: 140px;
+  margin-left: 150px;
+}
+#location{
+  margin-left: 10px;
+}
+.booking .check-in{
+   border: 2px solid #857678; 
+  background-color: aliceblue;
+  color: black;
+  font: x-large;
+  height: 130px;
+  width: 250px;
+  margin-top: 140px;
+}
+#chkin{
+  height: 50px;
+  width: 200px;
+  margin-left: 10px;
+}
+.booking .check-out{
+   border: 2px solid #857678; 
+  background-color: aliceblue;
+  color: black;
+  font: x-large;
+  height: 130px;
+  width: 250px;
+  margin-top: 140px;
+}
+#chkout{
+  height: 50px;
+  width: 200px;
+  margin-left: 10px;
+}
+.booking .rooms{
+   border: 2px solid #857678; 
+  background-color: aliceblue;
+  color: black;
+  font: x-large;
+  height: 130px;
+  width: 350px;
+  margin-top: 140px;
+}
+.booking .adults{
+  margin-left: 10px;
+}
+.booking .children{
+  margin-left: 10px;
+}
+.booking .room{
+  margin-left: 16px;
+  width: 237px;
+  margin-top: 12px;
+}
+.booking .price{
+   border: 2px solid #857678; 
+  background-color: aliceblue;
+  color: black;
+  font: x-large;
+  height: 130px;
+  width: 250px;
+  margin-top: 140px;
+}
+.booking .price .price-filter{
+  height: 50px;
+  width: 100px ;
+  margin-left: 15px;
+}
+
+/* search button */
+.sbutton{
+  /* height: 54px;*/
+  /* width: 198px;  */
+  margin-top: 29px;
+  margin-left: 845px;
+  /* border-radius: 10%; */
+}
+
+/* Offers */
+.offer{
+  /* border: 2px solid blue; */
+  height: 600px;
+  width: 1200px;
+  background-color: #00a9d9;
+  box-shadow: 7px 7px #a9d2ff;
+  margin-bottom: 15px;
+}
+.offers{
+  /* border: 2px solid blue ; */
+  height: 450px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.offer .card{
+  box-shadow: 5px 5px #f6eda3;
+  background-color: #f3eae8;
+}
+
+/* popplaces */
+.popplaces{
+  /* border: 2px solid red; */
+  height: 335px;
+  width: 1200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  background-color: #e6ffff;
+  box-shadow: 5px 5px #f3eae8;
+}
+.pp1{
+  display: flex;
+  margin-top: 10px;
+}
+.pp1 .goa{
+  /* border: 2px solid blue; */
+  height: 300px;
+  width: 438px;
+  margin-left: 29px;
+  background-color: #a9d2ff;
+  box-shadow: 5px 5px #a9d2ff;
+}
+.pp1 .ooty{
+  /* border: 2px solid blue; */
+  height: 300px;
+  width: 438px;
+  margin-left: 260px;
+  background-color: #a9d2ff;
+  box-shadow: 5px 5px #a9d2ff;
+  
+}

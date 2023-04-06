@@ -1,0 +1,83 @@
+.otpcard-block{
+    /* border: 2px solid red; */
+    height: 800px;
+    width: 550px;
+    margin-left: 650px;
+    margin-top: 50px;
+    background:linear-gradient(rgb(76, 76, 234),grey,gray,rgb(43, 42, 42));
+}
+.otpcard-block h1,h4{
+    color: rgb(33, 27, 116);
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.otpcard-block .otp-input{
+    display: flex;
+    justify-content: space-evenly;
+    height: 65px;
+    width: 530px;
+    /* border: 2px solid red; */
+}
+.otpcard-block .otp-input .data{
+    width: 60px;
+    font-size: xx-large;
+    text-align: center;
+    border: none;
+    box-shadow: 2px 3px 1px black;
+    color: rgb(23, 23, 72);
+    background-color: rgb(73, 73, 243);
+}
+.otpcard-block .otp-input .data:focus{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline:none ;
+    background-color: rgb(234, 207, 173);
+}
+
+.otpcard-block .submitblock{
+    height: 80px;
+    width: 540px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+   
+}
+.otpcard-block .submitblock .otp-sbtn{
+    color: aliceblue;
+    background-color: rgb(10, 10, 37);
+    height:55px;
+    width: 200px;
+   margin-left: 163px;
+   border-radius: 15px;
+}
+.submitblock h5{
+    margin-top: 4px;
+    font-size: medium;
+    margin-left: 369px;
+}
+.number-keyboard{
+    height: 451px;
+    width: 410px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+    row-gap: 25px;
+    column-gap: 25px;
+    margin-left: 58px;
+}
+
+.number-keyboard .num{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(22, 22, 30);
+    background-color: rgb(17, 17, 44);
+    color: aliceblue;
+    /* font-style: italic; */
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header -->
+  <div class="navicon-back">
+    <section class="navicon-back">
+       <div class="domain">
+           <h1>T</h1>
+           <h5>rapelo</h5>
+         </div>
+   <div class="navicon">
+   <div class="flights">
+       <i class="fa-sharp fa-solid fa-plane-departure"></i>
+       <h6>flights</h6>
+   </div>
+   <div class="hotels">
+       <i class="fa-solid fa-hotel"></i>
+       <h6> <a href="./hotel.html" target="_blank" class="hotel"> hotels </a></h6>
+   </div>
+   <div class="packages">
+       <i class="fa-solid fa-cube"></i>
+       <h6>packages</h6>
+   </div>
+   <div class="cabs">
+       <i class="fa-solid fa-car"></i>
+       <h6>cabs</h6>
+   </div>
+   <div class="train">
+       <i class="fa-solid fa-train"></i>
+       <h6>train</h6>
+   </div>
+   <div class="bus">
+       <i class="fa-solid fa-bus"></i>
+       <h6>bus</h6>
+   </div>
+   <div class="payment">
+       <i class="fa-brands fa-cc-amazon-pay"></i>
+       <h6>payment</h6>
+   </div>
+   <div class="feedback">
+       <i class="fa-solid fa-message"></i>
+      
+       <h6>feedback</h6>
+   </div>
+   <div class="reviews">
+       <i class="fa-solid fa-star"></i>
+       <h6>reviews</h6>
+   </div>
+   <div class="activites">
+       <i class="fa-solid fa-person-hiking"></i>
+       <h6>activites</h6>
+   </div>
+  </div>
+
+  </div>
+
+  <!-- Form -->
+    <form style="background-color: rgb(106, 173, 255);"> 
+        <fieldset>
+            <legend>Registration</legend>
+
+            <center>
+            <table>
+              <tr>
+                <td><label for="name" name="username">Name</label></td>
+                <td><input type="text" id="name"></td>
+              </tr>
+              <tr>
+                <td><label for="dob" name="dob">Date of birth</label></td>
+                <td><input type="date" id="dob"></td>
+              </tr>
+              <tr>
+                <td><label for="contact">Contact</label></td>
+                <td><input type="tel" id="contact" name="contacts" maxlength="10"></td>
+              </tr>
+              <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" ></td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="gender">Gender</label>
+                 <input type="radio" id="gender" name="gender" value="male">Male
+                 <input type="radio" id="gender" name="gender" value="female">Female
+                 <input type="radio" id="gender" name="gender" value="others">Others
+                </td>
+              </tr>
+              <tr>
+                <td><label for="pid" >Passport ID</label></td>
+                <td><input type="text" id="pid" name="pid" ></td>
+              </tr>
+              <tr>
+                <td><label for="ADDRESS">ADDRESS</label></td>
+                <td><textarea  id="ADDRESS" name="ADDRESS">
+                </textarea></td>
+              </tr>
+              <tr>
+                <td><label for="photo">UPLOAD PHOTO</label></td>
+                <td><input type="file" id="photo" name="photo"
+                  title="only jpeg/png"></td>
+              </tr>
+              <tr>
+                <td><label for="pwd">CREATE PASSWORD</label></td>
+                <td><input type="password" id="pwd" name="pwd"></td>
+              </tr>
+              <tr>
+                <td><label for="pwd2">RENAME PASSWORD</label></td>
+                <td><input type="password" id="pwd2" name="pwd2"></td>
+              </tr>
+              <tr>
+                <td><label for="PB">PREFERED BOOKING</label></td>
+                <td><input type="checkbox" id="PB"
+                  name="PB" value="fap">FAMILY PACKAGES
+                 <input type="checkbox" id="PB"
+                 name="PB" value="fep">FELLOW PACKAGES <br><br>
+                 <input type="checkbox" id="PB"
+                 name="PB" value="cp">COUPLE  PACKAGES
+                 <input type="checkbox" id="PB"
+                 name="PB" value="sp">SOLO PACKAGE</td>
+              </tr>
+              <tr>
+                <td><label for="an">ACCOUNT NUMBER</label></td>
+                <td><input type="text" id="an" name="an" novalidate ></td>
+              </tr>
+              <tr>
+                <td><label for="yp">TRAVEL PLAN</label></td>
+                <td><input type="checkbox" id="yp"
+                  name="yp" value="INTER">INTER STATE
+                 <input type="checkbox" id="yp"
+                 name="yp" value="INTERA">INTRA STATE
+                 <input type="checkbox" id="yp"
+                 name="yp" value="ABROAD">ABROAD</td>
+            </tr>
+            <tr>
+              <td><label for="rm">REGISTRATION MEMBERS</label></td>
+              <td><input type="checkbox" id="rm"
+                name="rm" value="p">PARENTS
+                <input type="checkbox" id="rm"
+                name="rm" value="f">FREINDS
+                <input type="checkbox" id="rm"
+                 name="rm" value="w">WIFE
+                <input type="checkbox" id="rm"
+                name="rm" value="c">CHILDREN</td>
+            </tr>
+            <tr>
+              <td><label for="staydays">Preferrable stay days</label></td>
+              <td>
+                <select name="staydays" id="staydays">
+                  <optgroup label="interState">
+                    <option value="6-8is">6-8 days</option>
+                    <option value="15-20is">15-20 days</option>
+                    <option value="20-30is">20-30 days</option>
+                  </optgroup>
+                  <optgroup label="interaState">
+                    <option value="6-8ia">6-8 days</option>
+                    <option value="15-20ia">15-20 days</option>
+                    <option value="20-30ia">20-30 days</option>
+                  </optgroup>
+                  <optgroup label="Abroade">
+                    <option value="6-8a">6-8 days</option>
+                    <option value="15-20a">15-20 days</option>
+                    <option value="montha">month</option>
+                  </optgroup>
+             </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="mt">Mode of Transport</label></td>
+              <td><input type="checkbox" id="mt" name="mt" value="cab"> Cab
+                <input type="checkbox" id="mt" name="mt" value="bus">Bus <br><br>
+                <input type="checkbox" id="mt" name="mt" value="flight">Flight
+                <input type="checkbox" id="mt" name="mt" value="train">Train</td>
+            </tr>
+          
+             
+            </table>
+            <hr>
+            <input type="submit">
+            <input type="reset">
+            <button class="otp"> <a href="./otpcard.html">Send OTP</a></button>
+          </center>
+            </fieldset>
+    </form>
+
+
+
+    <!-- footer -->
+    <div class="footer-block">
+      <div class="inn-footerblock">
+        <div class="subscribe-block">
+           <section class="sb1">
+            <p>Want to receive exclusive hotel offers?
+                 Subscribe to our newsletter!</p>
+           </section>
+           <section class="sb2">
+             <input type="email" id="email" name="email" placeholder="EMAIL ADDRESS">
+             <button type="submit">Subscribe</button>
+           </section>
+           
+        </div>
+        <div class="footer-block2">
+            <div class="media">
+                <p>Trapilo<span><sup>R</sup></span> | Banglore,karnataka -560004</p>
+                <div class="icons">
+                  <div id="fb">
+                    <i class="fa-brands fa-facebook"></i>
+                  </div>
+                  <div id="in">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <div id="tw">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div id="yo">
+                    <i class="fa-brands fa-youtube"></i>
+                  </div>
+                  <div id="li">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+             </div>
+             <section class="country">
+                  <select id="country-drop">
+                       <option value=""><a href="">🏳️‍🌈INDIA</a></option>
+                       <option value=""><a href="">CANADA</a></option>
+                       <option value=""><a href="">BELGIUM</a></option>
+                       <option value=""><a href="">FRANCE</a></option>
+                       <option value=""><a href="">GERMANY</a></option>
+                       <option value=""><a href="">AUSTRALIA</a></option>
+                       <option value=""><a href="">HONG KONG</a></option>
+                       <option value=""><a href="">SWEDEN</a></option>
+                       <option value=""><a href="">USA</a></option>
+                       <option value=""><a href="">UNITED KINGDOM</a></option>
+                  </select>      
+             </section>
+            </div>
+  
+            <section class="list-block">
+                   <article class="block1">
+                    <ul type="none">
+                      <li>company</li>
+                      <li>jobs</li>
+                      <li>press</li>
+                      <li>investor relation</li>
+                    </ul>
+                   </article>
+                   <article class="block2">
+                    <ul type="none">
+                      <li>Mobile apps - searching on the go</li>
+                      <li>trapelo Business Studio</li>
+                    </ul>
+                   </article>
+                   <article class="block3">
+                    <ul type="none">
+                      <li>help</li>
+                      <li>Terms and condition</li>
+                      <li>legal notice</li>
+                      <li>privacy</li>
+                      <li>cyber security</li>
+                      <li>Coronavirus (COVID-19) travel advice</li>
+                    </ul>
+                   </article>
+            </section>
+  
+            <div class="domain">
+             <p>trapelo</p>
+             <h6>copyright @trapelo 2023| reserved</h6>
+            </div>
+  
+      </div>
+    </div>
+</body>
+</html>
